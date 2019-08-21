@@ -8,4 +8,4 @@
 首先，透過 g.SAHARsys乾式電極系統擷取腦波訊號並傳送給 EPOC chip，再經由無線的方式傳送給Jetson TK1 識別腦波訊號，識別的過程先將訊號經過 DWT 提取各類別的特徵值，最後再透過雙向長短期記憶來識別訊號，Jetson TK1 使用藍芽與 FPGA 上的藍芽連線配對，再將所判斷出來的類別透過藍芽傳送不同的控制命令來驅動電動輪椅移動，如圖 25 為電動輪椅控制系統架構圖，本系統設計連續兩秒分類為相同類別，才會讓電動輪椅動作。  
 # 開發環境
 Programming Language: Python  
-IDE: Visual studio code
+IDE: Visual Studio Code
