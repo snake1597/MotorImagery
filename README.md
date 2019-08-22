@@ -9,3 +9,5 @@
 # 開發環境
 Programming Language: Python  
 IDE: Visual Studio Code
+# 備註  
+本篇以BCI Competition II裡的Data set III當作訓練神經網路的資料，訓練資料跟測試資料個為140組，類別為想像左手跟想像右手(前者代號為0，後者為1)
