@@ -17,7 +17,7 @@ IDE: Visual Studio Code
 載入訓練資料。
 <div><pre>python loadData.py</pre></div>  
 顯示資料處理前跟處理後。  
-<div><pre>python showData.py</pre></div>  
-# 備註  
+<div><pre>python showData.py</pre></div> 
+
 &emsp;&emsp;本篇只示範資料預處理與訓練網路的過程，資料庫以BCI Competition II裡的Data set III當作訓練神經網路的資料，訓練資料跟測試資料個為140組，類別為想像左手跟想像右手(前者代號為0，後者為1)  
 Slide Link: https://drive.google.com/file/d/1WHMUEh1P3lko4vO81LceTVSXd3wgi3Pa/view
