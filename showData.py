@@ -18,8 +18,7 @@ def showAveragepower():
         tmp_index = indices(y_train, tp)
         #print(len(tmp_index)) #show class quantity
         tempList = x_train[tmp_index]
-        fixList = np.sum(np.power(tempList, 2), axis=0)
-        #fixList = np.sum(tempList,axis=0) #original data
+        fixList = np.sum(tempList,axis=0)
         resultList = np.divide(fixList,tempList.shape[0])
         d_avg[tp] = resultList 
     LH = np.array(d_avg[0])
