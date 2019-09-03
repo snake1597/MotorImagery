@@ -10,7 +10,7 @@
 Programming Language: Python  
 IDE: Visual Studio Code
 # 程式說明
-<table><tr><td bgcolor=orange>背景色是：orange</td></tr></table>
+<table><tr><td bgcolor=>背景色是：orange</td></tr></table>
 # 備註  
 &emsp;&emsp;本篇只示範資料預處理與訓練網路的過程，資料庫以BCI Competition II裡的Data set III當作訓練神經網路的資料，訓練資料跟測試資料個為140組，類別為想像左手跟想像右手(前者代號為0，後者為1)  
 Slide Link: https://drive.google.com/file/d/1WHMUEh1P3lko4vO81LceTVSXd3wgi3Pa/view
