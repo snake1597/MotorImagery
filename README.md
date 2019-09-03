@@ -9,8 +9,15 @@
 # 開發環境
 Programming Language: Python  
 IDE: Visual Studio Code
-# 程式說明
-<table><tr><td bgcolor=>背景色是：orange</td></tr></table>
+# 程式說明  
+搭建模型後進行訓練與驗證，並保存最佳的模型進行測試，還有顯示訓練中accuracy與loss的曲線。
+<div><pre>python Bidirectional_LSTM.py</pre></div>  
+資料前處理，採用DWT。
+<div><pre>python DWT.py</pre></div>  
+載入訓練資料。
+<div><pre>python loadData.py</pre></div>  
+顯示資料處理前跟處理後。  
+<div><pre>python showData.py</pre></div>  
 # 備註  
 &emsp;&emsp;本篇只示範資料預處理與訓練網路的過程，資料庫以BCI Competition II裡的Data set III當作訓練神經網路的資料，訓練資料跟測試資料個為140組，類別為想像左手跟想像右手(前者代號為0，後者為1)  
 Slide Link: https://drive.google.com/file/d/1WHMUEh1P3lko4vO81LceTVSXd3wgi3Pa/view
